@@ -1,0 +1,24 @@
+Source: libprefork-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl
+Standards-Version: 4.2.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libprefork-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libprefork-perl.git
+Homepage: https://metacpan.org/release/prefork
+
+Package: libprefork-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: pragma for optimized module loading for forking or non-forking processes
+ The prefork pragma is intended to allow module writers to optimise module
+ loading for both scenarios with as little additional code as possible.
+ .
+ prefork.pm is intended to serve as a central and optional marshalling point
+ for state detection (the software is running in compile-time or run-time mode)
+ and to act as a relatively light-weight module loader.

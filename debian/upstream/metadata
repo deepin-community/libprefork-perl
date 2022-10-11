@@ -1,0 +1,8 @@
+---
+Archive: CPAN
+Bug-Database: https://rt.cpan.org/Public/Dist/Display.html?Name=prefork
+Bug-Submit: bug-prefork@rt.cpan.org
+Contact: Karen Etheridge <ether@cpan.org>
+Name: prefork
+Repository: https://github.com/karenetheridge/prefork.git
+Repository-Browse: https://github.com/karenetheridge/prefork
